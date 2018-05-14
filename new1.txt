@@ -1,1 +1,2 @@
-测试Git
+﻿测试Git
+public static void main(String args[]){}
