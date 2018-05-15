@@ -8,4 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     tools:context="com.android.administrator.myapplication.view.Activity.Main3Activity">
+    <Button
+        android:onClick="tiao"
+        />
 </GridLayout>
