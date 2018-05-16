@@ -57,6 +57,10 @@
         </activity>
         <activity android:name=".view.Activity.Main5Activity">
         </activity>
+        <activity android:name=".view.Activity.Main6Activity">
+        </activity>
+        <activity android:name=".view.Activity.Main7Activity">
+        </activity>
     </application>
 
 </manifest>

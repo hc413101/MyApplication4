@@ -53,7 +53,7 @@ public class Main3Activity extends AppCompatActivity {
     }
 
     public void tiao(View view){
-        Intent intent = new Intent(this,Main5Activity.class);
+        Intent intent = new Intent(this,Main6Activity.class);
         startActivity(intent);
     }
 

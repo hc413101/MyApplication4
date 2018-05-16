@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.administrator.myapplication.view.Activity.Main6Activity">
+    <AutoCompleteTextView
+        android:id="@+id/search"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:completionThreshold="1"
+        android:gravity="center"
+        android:hint="@string/search_hint"
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/clean"
+        app:layout_constraintTop_toBottomOf="@id/search"
+        android:text="@string/search_sava"
+        />
+
+    <Button
+        android:id="@+id/clean"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/search"
+        app:layout_constraintLeft_toRightOf="@id/save"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/search_clean"
+        />
+
+    <ProgressBar
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:max="100"
+        android:progress="10"
+        />
+</android.support.constraint.ConstraintLayout>

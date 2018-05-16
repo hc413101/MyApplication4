@@ -3,4 +3,7 @@
     <string name="title_activity_main3">Main3Activity</string>
     <string name="tv_name">姓名 :</string>
     <string name="tv_age">年龄 :</string>
+    <string name="search_hint">请输入搜索内容</string>
+    <string name="search_sava">保存</string>
+    <string name="search_clean">清除</string>
 </resources>
