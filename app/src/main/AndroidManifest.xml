@@ -17,7 +17,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/CustomAppTheme">
         <activity android:name=".view.Activity.MainActivity">
 
             <!-- <intent-filter> -->
@@ -59,7 +59,7 @@
         </activity>
         <activity android:name=".view.Activity.Main6Activity">
         </activity>
-        <activity android:name=".view.Activity.Main7Activity">
+        <activity android:name=".view.Activity.Main7Activity"  android:label="">
         </activity>
     </application>
 

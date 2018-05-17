@@ -16,6 +16,7 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
     <style name="grid">
         <item name="android:layout_margin">3dp</item>
         <item name="android:layout_width">70dp</item>
@@ -40,9 +41,31 @@
         <item name="android:gravity">center</item>
         <item name="android:textSize">16sp</item>
     </style>
+
+    <style name="toolbar_menu_style" parent="Base.Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">true</item>
+        <item name="android:popupBackground">@color/material_deep_teal_500</item>
+        <item name="android:dropDownVerticalOffset">5dp</item>
+        <item name="android:dropDownHorizontalOffset">-2dp</item>
+    </style>
     
-    <style name="cutomTheme" parent="AppTheme">
+    <style name="OverflowButtonStyle" parent="Base.Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@mipmap/ic_launcher</item>
+    </style>
+
+    <style name="Base.AppTheme" parent="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="CustomAppTheme" parent="Base.AppTheme">
+        <item name="actionOverflowMenuStyle">@style/toolbar_menu_style</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item>
     </style>
 </resources>

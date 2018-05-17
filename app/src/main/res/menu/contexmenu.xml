@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item android:title="菜单一"
+              android:orderInCategory="100"
+              android:menuCategory="system"/>
+        <item android:title="菜单二"
+              android:orderInCategory="200"
+              android:menuCategory="system"/>
+        <item android:title="菜单三"
+              android:orderInCategory="300"
+              android:menuCategory="system"/>
+    </group>
+</menu>
